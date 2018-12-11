@@ -20,7 +20,7 @@ query_name.find().then(function(todo){
   document.getElementById("player_position").innerHTML=player_position;
   document.getElementById("player_birth").innerHTML=player_birth;
   document.getElementById("player_begin").innerHTML=player_begin;
-  if (player_university.length < 27) {
+  if (player_university.length < 27 && player_university != "") {
     document.getElementById("player_university").innerHTML=player_university;
   } else {
     document.getElementById("player_university").innerHTML="undefined";
