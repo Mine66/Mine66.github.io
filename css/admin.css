@@ -108,7 +108,7 @@ button{
 
 }
 .bar6 button:before {
-	content:"搜索";
+	content:"Search";
 	font-size:13px;
 	color:#F9F0DA;
 }
